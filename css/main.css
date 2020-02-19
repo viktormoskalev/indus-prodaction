@@ -3,6 +3,7 @@ body{
   font-family: "Arial";
     text-align: center;
 }
+
 p{
   margin: 0;
 }
@@ -19,7 +20,9 @@ section{
 .header{
   padding-bottom: 160px;
   position: relative;
-  background-image: url(../images/Background_Image.png)
+  background-image: url(../images/Background_Image.png);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .foreground{
